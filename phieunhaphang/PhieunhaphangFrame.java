@@ -412,7 +412,7 @@ public class PhieunhaphangFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         DSNhanVien nv = new DSNhanVien(this);
         nv.pack();
-        nv.setVisible(true);
+        nv.setVisible(false);
     }//GEN-LAST:event_btDSMatHangActionPerformed
 
     /**
