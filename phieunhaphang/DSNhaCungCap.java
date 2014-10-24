@@ -241,6 +241,7 @@ public class DSNhaCungCap extends javax.swing.JFrame {
            PhieunhaphangFrame PNH = (PhieunhaphangFrame)this.callingFrame;
            PNH.NhaCungCap = NCC;
            PNH.tfNhaCC.setText(PNH.NhaCungCap.getTenNCC());
+           PNH.tfMathang.setText(PNH.NhaCungCap.getTenNCC());
         }
         this.dispose();
     }//GEN-LAST:event_btChonNhaCCActionPerformed
