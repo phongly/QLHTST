@@ -225,9 +225,9 @@ public class PhieunhaphangFrame extends javax.swing.JFrame {
                 .addGap(69, 69, 69)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 269, Short.MAX_VALUE)
                         .addComponent(jLabel8)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap(283, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
@@ -296,7 +296,7 @@ public class PhieunhaphangFrame extends javax.swing.JFrame {
                                 .addComponent(tfSoluong, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(btThem)))
-                        .addContainerGap(60, Short.MAX_VALUE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -410,7 +410,7 @@ public class PhieunhaphangFrame extends javax.swing.JFrame {
 
     private void btDSMatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btDSMatHangActionPerformed
         // TODO add your handling code here:
-        DSMat_Hang nv = new DSMat_Hang(this);
+        DSNhanVien nv = new DSNhanVien(this);
         nv.pack();
         nv.setVisible(true);
     }//GEN-LAST:event_btDSMatHangActionPerformed
