@@ -410,9 +410,10 @@ public class PhieunhaphangFrame extends javax.swing.JFrame {
 
     private void btDSMatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btDSMatHangActionPerformed
         // TODO add your handling code here:
-        DSNhanVien nv = new DSNhanVien(this);
-        nv.pack();
-        nv.setVisible(false);
+        MatHangDao MatHangDao = new MatHangDao();
+//        DSMat_Hang nv = new DSMat_Hang(this);
+//        nv.pack();
+//        nv.setVisible(true);
     }//GEN-LAST:event_btDSMatHangActionPerformed
 
     /**

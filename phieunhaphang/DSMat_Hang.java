@@ -20,12 +20,7 @@ import javax.swing.table.DefaultTableModel;
 public class DSMat_Hang extends javax.swing.JFrame {
 
 
-    public DSMat_Hang(JFrame callingFrame) {
-        this.callingFrame = callingFrame;
-        initComponents();
-        loadTableDSMH();
-        lMsg.setText("");
-    }
+
     
     public DSMat_Hang() {
         initComponents();
@@ -33,6 +28,12 @@ public class DSMat_Hang extends javax.swing.JFrame {
         lMsg.setText("");
     }
 
+    public DSMat_Hang(JFrame callingFrame) {      
+        initComponents();
+        loadTableDSMH();
+        lMsg.setText("");
+        this.callingFrame = callingFrame;
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -154,6 +155,7 @@ public class DSMat_Hang extends javax.swing.JFrame {
            PNH.MatHang = MH;
            System.out.println("PHieu nhap hang " + PNH.MatHang.getTenMH());
            PNH.tfNhaCC.setText(PNH.MatHang.getTenMH());
+//           PNH.tfNhaCC.setText("sao ko vo");
         }
         this.dispose();
     }//GEN-LAST:event_btChonActionPerformed
